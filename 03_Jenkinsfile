@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git branch: 'main', credentialsId: 'github', url: 'https://github.com/saha-rajdeep/devopscourse.git'
+        git branch: 'main', credentialsId: 'github', url: 'https://github.com/mykefon/devopscourse.git'
       }
     }
   
