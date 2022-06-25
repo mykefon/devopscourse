@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Starting Build step'
                 script {
-                    app = docker.build("raj80dockerid/jenkinstest","./pushdockerimage/")
+                    app = docker.build("mykesrun/jenkinstest001","./pushdockerimage/")
                 }
             }
         }
