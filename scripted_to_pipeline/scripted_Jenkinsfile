@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("raj80dockerid/jenkinstest","./pushdockerimage/")
+       app = docker.build("mykesrun/jenkinstest001","./pushdockerimage/")
     }
 
     stage('Push image') {
